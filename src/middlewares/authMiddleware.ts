@@ -11,4 +11,4 @@ const authMiddleware = async (ctx: Context, next: () => Promise<unknown>) => {
   }
 };
 
-export default authMiddleware;  // Export as default
+export default { authMiddleware };  // Export as default

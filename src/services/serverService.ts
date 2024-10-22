@@ -1,4 +1,4 @@
-export const getServerStatus = async () => {
+export const getServerStatus = () => {
     // Fetch real-time server status data (stubbed example)
     const status = {
       playerCount: 12,
