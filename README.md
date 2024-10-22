@@ -12,7 +12,7 @@ AcAdmin is an Admin Panel for FiveM, designed to streamline server management an
 
 ## 🤔Installation
 
-1. **Download** the latest version of AcAdmin from the [Releases page](https://github.com/YourUsername/AcAdmin/releases).
+1. **Download** the latest version of AcAdmin from the [Releases page](https://github.com/austincabler13/AcAdmin/releases/tag/0.0.3).
 2. **Extract** the contents to your `resources` folder in your FiveM server.
 3. Add the following to your `server.cfg`:
 
