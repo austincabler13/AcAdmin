@@ -3,43 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Additional custom styles for your dashboard */
-/* Example styles for a sidebar */
-.sidebar {
-    width: 280px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-/* Example styles for main content */
-.main-content {
-    flex: 1;
-    padding: 20px;
-}
-
+/* Additional custom styles for specific elements */
 /* Example styles for cards */
 .card {
     background-color: #fff;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px;
-}
-
-/* Example styles for buttons */
-.btn {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #45a049;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
