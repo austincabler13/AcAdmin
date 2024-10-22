@@ -1,6 +1,6 @@
-import { Context } from "https://deno.land/x/oak/mod.ts";
+import { Context } from "https://deno.land/x/oak@v17.1.0/mod.ts";
 
-const authMiddleware = async (ctx: Context, next: () => Promise<unknown>) => {
+export const authMiddleware = async (ctx: Context, next: () => Promise<unknown>) => {
   const token = ctx.request.headers.get("Authorization");
 
   if (token === "your-secure-token") {
@@ -10,5 +10,3 @@ const authMiddleware = async (ctx: Context, next: () => Promise<unknown>) => {
     ctx.response.body = { error: "Unauthorized" };
   }
 };
-
-export default { authMiddleware };  // Export as default
